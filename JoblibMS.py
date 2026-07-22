@@ -8,7 +8,7 @@ from sklearn import metrics
 import pickle
 
 # import the dataset
-dataset = pd.read_csv('headbrain1.csv')
+dataset = pd.read_csv('headbrain.csv')
 
 X = dataset.iloc[:, : -1].values
 Y = dataset.iloc[:, -1].values
